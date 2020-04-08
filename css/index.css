@@ -1,0 +1,137 @@
+.container {
+	width: 46.875rem;
+	background-color: #2b73da;
+}
+
+.public-header {
+	height: 9.375rem;
+	background-color: #2b73da;
+}
+
+.mid-panel {
+	height: 31.5625rem;
+	border-top-left-radius: 3.125rem;
+	border-top-right-radius: 3.125rem;
+	background-color: white;
+}
+
+.mid-panel .img-panel {
+	height: 16.75rem;
+	padding: 2.5rem;
+}
+
+.mid-panel .img-panel .img-panel-div {
+	width: 41.875rem;
+	height: 16.75rem;
+	border-radius: 0.9375rem;
+	overflow: hidden;
+}
+
+.mid-panel .img-panel .img-panel-div img {
+	width: 100%;
+	height: 100%;
+}
+
+.mid-panel .button-panel {
+	display: flex;
+	width: 41.875rem;
+	margin-left: 2.5rem;
+	margin-right: 2.5rem;
+}
+
+.mid-panel .button-panel > div {
+	flex: 1;
+}
+
+.mid-panel .button-panel div img {
+	display: block;
+	margin: auto;
+}
+
+.mid-panel .button-panel div p {
+	text-align: center;
+}
+
+.space-panel {
+	height: 1.375rem;
+	background-color: #f8f8fa;
+}
+
+.bottom-panel {
+	height: 58.125rem;
+	background-color: white;
+}
+
+.bottom-panel .hot-news-top{
+	height: 2.25rem;
+	padding: 2.0625rem 2.0625rem;
+}
+
+.bottom-panel .hot-news-top b{
+	font-size: 1.625rem;
+	line-height: 2.25rem;
+	letter-spacing: 0.125rem;
+}
+
+.line {
+	margin:0 auto;
+	border-bottom:0.0625rem solid #ccc;
+	width:90%;
+}
+
+.bottom-panel .news-panel {
+	overflow-x: auto;
+	overflow-y: auto;
+	height: 45.625rem;
+}
+
+.bottom-panel .news-panel .hot-news-panel {
+	height: 11.375rem;
+}
+
+.bottom-panel .news-panel .hot-news-panel .hot-news-panel-left {
+	display: inline-block;
+	vertical-align:top;
+	width: 23.125rem;
+	height: 5.875rem;
+	margin-top: 2.75rem;
+	margin-bottom: 2.75rem;
+	margin-left: 2.25rem;
+}
+
+.bottom-panel .news-panel .hot-news-panel .hot-news-panel-right {
+	display: inline-block;
+	width: 10.875rem;
+	height: 7.125rem;
+	border-radius: 0.9375rem;
+	margin: 1.875rem 0rem 1.875rem 7.875rem;
+	overflow: hidden;
+}
+
+.bottom-panel .news-panel .hot-news-panel .hot-news-panel-right img {
+	width: 100%;
+	height: 100%;
+}
+
+.news-title {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-ms-text-overflow: ellipsis;
+	display: box;
+	display: -webkit-box;
+	line-clamp: 1;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	font-size: 1.375rem;
+}
+
+.news-time {
+	display: inline-block;
+	margin-top: 1.25rem;
+}
+
+.news-readed {
+	display: inline-block;
+	margin-left: 6.25rem;
+}
+	
